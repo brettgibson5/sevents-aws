@@ -1,8 +1,8 @@
-*.js
-!jest.config.js
-*.d.ts
+# package directories
 node_modules
+jspm_packages
 
-# CDK asset staging directory
-.cdk.staging
-cdk.out
+# Serverless directories
+.serverless
+
+.env
